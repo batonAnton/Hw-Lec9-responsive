@@ -1,0 +1,40 @@
+*{
+    width: 1440px;
+    height: 900px;
+    box-sizing: border-box;
+}
+
+.same-margin{
+    margin-left: 163px;
+}
+header{
+    width: 1440px;
+    height: 665px;
+}
+
+.logo{
+    margin-top: 63px;
+}
+.logo-text{
+    font-family: 'Product Sans';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282F0;
+}
+
+.logo-svg{
+    transform: scale(0.045);
+    width: 200px;
+    height: 200px;
+}
+
+.logo{
+    margin-top: 133px;
+}
+
+
+
+.bg-img{
+    background-image: url("../images/Header/header-bg.svg");
+}

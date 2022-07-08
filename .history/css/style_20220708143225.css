@@ -1,0 +1,10 @@
+*{
+    width: 1440px;
+    height: 900px;
+}
+header{
+    width: 993px;
+    height: 668px;
+    background-image: url("../images/Header/header-bg.svg");
+    
+}
