@@ -384,23 +384,12 @@ footer .wrapper{
 }
 
 @media  screen and (max-width:360px) {
-    
     header{
-        width: 830px;
-        overflow: hidden;
+        /* width: 100%; */
     }
 
     header .info {
         width: 100%;
-        text-align: center;
-    }
-
-    .ds-block{
-        margin-left: auto;
-        margin-right: auto;
-}
-    .same-margin{
-        padding-left: 0;
     }
 
     .bg-img{
