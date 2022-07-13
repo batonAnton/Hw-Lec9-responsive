@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-.showBr{
-    display: none;
-}
 .same-margin{
     padding-left: 163px;
 }
@@ -51,7 +48,7 @@ header{
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 31px;
+    font-size: 36px;
     line-height: 48px;
     display: flex;
     align-items: flex-end;
@@ -391,11 +388,7 @@ footer .wrapper{
     header, .section1, .section2, .section3, .section4, .section5, .section6, footer{
         width: 360px;
         height: auto;
-        /* overflow: hidden; */
-    }
-
-    .showBr{
-        display: block;
+        overflow: hidden;
     }
 
     header .info {
@@ -407,15 +400,6 @@ footer .wrapper{
     header .info h1{
         font-size: 30px;
         line-height: 40px;
-    }
-
-    header .info p{
-        font-size: 16px;
-        line-height: 23px;
-    }
-
-    header .info img {
-        margin-right: 0;
     }
 
     .ds-block{
@@ -433,15 +417,14 @@ footer .wrapper{
     .logo{
         display: inline-flex;
         justify-content: center;
-        margin-left: 125px;
-        margin-bottom: 86px;
+        margin-right: auto;
+        margin-left: 167px;
         height: 32px;
     }
 
     /* sec1 */
     .section1 .wrapper{
         height: auto;
-        width: 360px;
         display: inline-flex;
         justify-content: flex-start;
         flex-direction: column-reverse;
@@ -450,23 +433,6 @@ footer .wrapper{
     
     .section1 .info h1{
         justify-content: center;
-    }
-
-    .section1 .info .hideBr{
-        display: none;
-    }
-
-    .section1 .img-block{
-        width: 360px;
-    }
-
-    .section1 .img1, .img2{
-        transform: scale(0.9);
-    }
-
-    .img2{
-        margin-left: 102px;
-        margin-top: -48px;
     }
 
     .section1 .same-btn{

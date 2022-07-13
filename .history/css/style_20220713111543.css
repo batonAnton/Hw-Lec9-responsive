@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-.showBr{
-    display: none;
-}
 .same-margin{
     padding-left: 163px;
 }
@@ -391,11 +388,7 @@ footer .wrapper{
     header, .section1, .section2, .section3, .section4, .section5, .section6, footer{
         width: 360px;
         height: auto;
-        /* overflow: hidden; */
-    }
-
-    .showBr{
-        display: block;
+        overflow: hidden;
     }
 
     header .info {
@@ -412,10 +405,6 @@ footer .wrapper{
     header .info p{
         font-size: 16px;
         line-height: 23px;
-    }
-
-    header .info img {
-        margin-right: 0;
     }
 
     .ds-block{
@@ -441,7 +430,6 @@ footer .wrapper{
     /* sec1 */
     .section1 .wrapper{
         height: auto;
-        width: 360px;
         display: inline-flex;
         justify-content: flex-start;
         flex-direction: column-reverse;
@@ -450,23 +438,6 @@ footer .wrapper{
     
     .section1 .info h1{
         justify-content: center;
-    }
-
-    .section1 .info .hideBr{
-        display: none;
-    }
-
-    .section1 .img-block{
-        width: 360px;
-    }
-
-    .section1 .img1, .img2{
-        transform: scale(0.9);
-    }
-
-    .img2{
-        margin-left: 102px;
-        margin-top: -48px;
     }
 
     .section1 .same-btn{

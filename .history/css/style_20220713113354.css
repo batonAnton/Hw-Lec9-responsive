@@ -456,19 +456,6 @@ footer .wrapper{
         display: none;
     }
 
-    .section1 .img-block{
-        width: 360px;
-    }
-
-    .section1 .img1, .img2{
-        transform: scale(0.9);
-    }
-
-    .img2{
-        margin-left: 102px;
-        margin-top: -48px;
-    }
-
     .section1 .same-btn{
         margin-bottom: 35px;
     }

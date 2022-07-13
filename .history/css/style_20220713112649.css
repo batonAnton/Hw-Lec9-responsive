@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-.showBr{
-    display: none;
-}
 .same-margin{
     padding-left: 163px;
 }
@@ -394,10 +391,6 @@ footer .wrapper{
         /* overflow: hidden; */
     }
 
-    .showBr{
-        display: block;
-    }
-
     header .info {
         width: 100%;
         text-align: center;
@@ -452,21 +445,8 @@ footer .wrapper{
         justify-content: center;
     }
 
-    .section1 .info .hideBr{
+    .section1 .info br{
         display: none;
-    }
-
-    .section1 .img-block{
-        width: 360px;
-    }
-
-    .section1 .img1, .img2{
-        transform: scale(0.9);
-    }
-
-    .img2{
-        margin-left: 102px;
-        margin-top: -48px;
     }
 
     .section1 .same-btn{
