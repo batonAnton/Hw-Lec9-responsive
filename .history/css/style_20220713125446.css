@@ -219,7 +219,7 @@ header{
     padding-bottom: 56px;
 }
 
-.section3  ul li{
+.section3 p{
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -511,7 +511,7 @@ footer .wrapper{
     /* section3 */
 
     .section3{
-        background-image: none;
+        /* background-image: none; */
     }
     .section3 .wrapper .row1, .row2, .row3{
         flex-direction: column;
@@ -530,17 +530,6 @@ footer .wrapper{
 
     .section3 h1{
         color: #333333;
-    }
-
-    .section3 ul li{
-        color: #4F4F4F;
-    }
-    .section3 .block  ul  {
-        list-style: none;
-    }
-
-    .blueFill{
-        fill: #333;;
     }
 
 }
