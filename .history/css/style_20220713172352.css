@@ -408,12 +408,6 @@ footer .wrapper{
     header, .section1, .section2, .section3, .section4, .section5, .section6, footer{
         width: 360px;
         height: auto;
-        /* padding-left: 20px;
-        padding-right: 20px; */
-        /* margin: 0; */
-        margin-left: 20px;
-        margin-right: 20px;
-
         /* overflow: hidden; */
     }
 
@@ -485,14 +479,12 @@ footer .wrapper{
         padding-top: 92px;
     }
 
-    .section1 .img1{
-        transform: scale(0.70);
-        margin-left: -70px;
+    .section1 .img1, .img2{
+        transform: scale(0.75);
     }
 
     .img2{
-        transform: scale(0.70);
-        margin-left: 40px;
+        margin-left: 76px;
         margin-top: -85px;
     }
 
@@ -599,50 +591,6 @@ footer .wrapper{
         margin-top: 60px;
         margin-left: 55px
 
-    }
-
-    /* sec6 */
-
-    .section6 {
-        position: relative;
-        height: 744px;
-    }
-    .section6 .img-block{
-        /* display: none; */
-        position: absolute;
-        top: 417px;
-        left: -165px;
-        transform: scale(0.6);
-    }
-    .section6 h1{
-        font-size: 28px;
-        line-height: 37px;
-    }
-    .section6 p{
-        text-align: center;
-    }
-
-    .section6 .info img {
-        margin-right: 20px;
-        margin-bottom: 82px;
-    }
-
-    /* footer */
-    footer{
-        height: 210px;
-    }
-
-    .link{
-        margin-top: 143px;
-        position: absolute;
-    }
-
-    .wrapper .link a{
-        padding-right: 19px;
-    }
-
-    footer .logo{
-        padding-top: 43px;
     }
 
 }

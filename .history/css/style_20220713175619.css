@@ -408,12 +408,8 @@ footer .wrapper{
     header, .section1, .section2, .section3, .section4, .section5, .section6, footer{
         width: 360px;
         height: auto;
-        /* padding-left: 20px;
-        padding-right: 20px; */
-        /* margin: 0; */
-        margin-left: 20px;
-        margin-right: 20px;
-
+        padding: 0;
+        margin: 0;
         /* overflow: hidden; */
     }
 
@@ -485,14 +481,12 @@ footer .wrapper{
         padding-top: 92px;
     }
 
-    .section1 .img1{
-        transform: scale(0.70);
-        margin-left: -70px;
+    .section1 .img1, .img2{
+        transform: scale(0.75);
     }
 
     .img2{
-        transform: scale(0.70);
-        margin-left: 40px;
+        margin-left: 76px;
         margin-top: -85px;
     }
 
@@ -634,7 +628,6 @@ footer .wrapper{
 
     .link{
         margin-top: 143px;
-        position: absolute;
     }
 
     .wrapper .link a{

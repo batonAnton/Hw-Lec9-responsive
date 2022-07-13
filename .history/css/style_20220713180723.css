@@ -485,14 +485,12 @@ footer .wrapper{
         padding-top: 92px;
     }
 
-    .section1 .img1{
-        transform: scale(0.70);
-        margin-left: -70px;
+    .section1 .img1, .img2{
+        transform: scale(0.75);
     }
 
     .img2{
-        transform: scale(0.70);
-        margin-left: 40px;
+        margin-left: 76px;
         margin-top: -85px;
     }
 

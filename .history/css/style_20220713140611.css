@@ -227,9 +227,6 @@ header{
     line-height: 23px;
     color: #FFFFFF;
 }
-.sec3Marg{
-    margin-top: 10px;
-}
 
 .section3 .row1{
     display: inline-flex;
@@ -408,12 +405,6 @@ footer .wrapper{
     header, .section1, .section2, .section3, .section4, .section5, .section6, footer{
         width: 360px;
         height: auto;
-        /* padding-left: 20px;
-        padding-right: 20px; */
-        /* margin: 0; */
-        margin-left: 20px;
-        margin-right: 20px;
-
         /* overflow: hidden; */
     }
 
@@ -485,14 +476,12 @@ footer .wrapper{
         padding-top: 92px;
     }
 
-    .section1 .img1{
-        transform: scale(0.70);
-        margin-left: -70px;
+    .section1 .img1, .img2{
+        transform: scale(0.75);
     }
 
     .img2{
-        transform: scale(0.70);
-        margin-left: 40px;
+        margin-left: 76px;
         margin-top: -85px;
     }
 
@@ -543,10 +532,6 @@ footer .wrapper{
         color: #333333;
     }
 
-    .sec3Marg{
-        margin-top: 0px;
-    }
-
     .section3 ul li{
         color: #4F4F4F;
     }
@@ -556,93 +541,6 @@ footer .wrapper{
 
     .blueFill{
         fill: #00ADEE;;
-    }
-
-    /* section4 */
-
-    .section4{
-        height: 430px;
-    }
-    .section4 .row img{
-        display: none;
-    }
-
-    .section4 .row .showImg{
-        display: block;
-    }
-
-    #arrow-l{
-        display: none;
-    }
-    #arrow-r{
-        right: 20px;
-    }
-
-    .dots{
-        top: 90%;
-        left: 35%;
-    }
-
-    /* sec5 */
-    .section5{
-        height: 480px;
-    }
-    .section5 .block svg{
-        margin-right: 40px;
-    }
-
-    .section5 .block .svg1{
-        width: 214px;
-    }
-
-    .section5 .block .lastsvg{
-        margin-top: 60px;
-        margin-left: 55px
-
-    }
-
-    /* sec6 */
-
-    .section6 {
-        position: relative;
-        height: 744px;
-    }
-    .section6 .img-block{
-        /* display: none; */
-        position: absolute;
-        top: 417px;
-        left: -165px;
-        transform: scale(0.6);
-    }
-    .section6 h1{
-        font-size: 28px;
-        line-height: 37px;
-    }
-    .section6 p{
-        text-align: center;
-    }
-
-    .section6 .info img {
-        margin-right: 20px;
-        margin-bottom: 82px;
-    }
-
-    /* footer */
-    footer{
-        height: 210px;
-    }
-
-    .link{
-        margin-top: 143px;
-        position: absolute;
-    }
-
-    .wrapper .link a{
-        padding-right: 19px;
-    }
-
-    footer .logo{
-        padding-top: 43px;
     }
 
 }
