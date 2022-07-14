@@ -650,13 +650,4 @@ footer .wrapper{
         margin-left:0px;
     }
 
-    .social{
-        position: absolute;
-        top: 90px;
-        left: 10px;
-    }
-
-    footer .wrapper {
-        justify-content: flex-start;
-
 }

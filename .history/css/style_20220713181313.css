@@ -569,14 +569,13 @@ footer .wrapper{
 
     .section4 .row .showImg{
         display: block;
-        margin-left: 20px;
     }
 
     #arrow-l{
         display: none;
     }
     #arrow-r{
-        right: -5px;
+        right: 20px;
     }
 
     .dots{
@@ -588,11 +587,8 @@ footer .wrapper{
     .section5{
         height: 480px;
     }
-    .section5 .block{
-        margin-left: 20px;
-    }
     .section5 .block svg{
-        margin-right: 24px;
+        margin-right: 40px;
     }
 
     .section5 .block .svg1{
@@ -647,16 +643,6 @@ footer .wrapper{
 
     footer .logo{
         padding-top: 43px;
-        margin-left:0px;
     }
-
-    .social{
-        position: absolute;
-        top: 90px;
-        left: 10px;
-    }
-
-    footer .wrapper {
-        justify-content: flex-start;
 
 }
